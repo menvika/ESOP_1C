@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<CommandsVisibility>
+		<Command name="0:363312d8-de15-4aeb-be6c-36f7de2c4216">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Бухгалтер">true</xr:Value>
+				<xr:Value name="Role.Пользователь">false</xr:Value>
+				<xr:Value name="Role.Менеджер">false</xr:Value>
+				<xr:Value name="Role.admin">true</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.ДержателиОпционов.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Бухгалтер">true</xr:Value>
+				<xr:Value name="Role.Пользователь">false</xr:Value>
+				<xr:Value name="Role.Менеджер">false</xr:Value>
+				<xr:Value name="Role.admin">true</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="0:59e18891-3802-4b9a-a213-aab6e5c18ff6">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Пользователь">false</xr:Value>
+				<xr:Value name="Role.Менеджер">false</xr:Value>
+				<xr:Value name="Role.admin">true</xr:Value>
+				<xr:Value name="Role.Бухгалтер">true</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.ПродажаОпционов.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Менеджер">false</xr:Value>
+				<xr:Value name="Role.Пользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+</CommandInterface>

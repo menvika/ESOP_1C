@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.Продажи" id="3b928a40-6ff6-425d-9713-5ca61519912c" configVersion="3120f323b5599a47b5d68935b3928f7800000000">
+			<Metadata name="AccumulationRegister.Продажи.Resource.ОстатокОпционовВПакете" id="01d24628-db56-4f54-bea9-d7fd572ba859"/>
+			<Metadata name="AccumulationRegister.Продажи.Dimension.ПакетОпционов" id="53f3ae3f-dc7f-4b91-8863-8297098aee6b"/>
+			<Metadata name="AccumulationRegister.Продажи.Dimension.ДатаПродажи" id="7ef30bfe-8e8c-4508-8353-dbf5fd799473"/>
+			<Metadata name="AccumulationRegister.Продажи.Dimension.ДержательОпционов" id="ed683c8c-6368-4aa9-9f3a-fcb314da53ec"/>
+			<Metadata name="AccumulationRegister.Продажи.Resource.КоличествоОпционов" id="f24fe84e-cab5-4800-9961-b4e2d81cf7a1"/>
+		</Metadata>
+		<Metadata name="Catalog.ДержателиОпционов" id="8fbc52c4-1887-4e65-9399-321566773c4e" configVersion="531b425f8caef941b817411e972f32bb00000000">
+			<Metadata name="Catalog.ДержателиОпционов.Attribute.НомерТелефона" id="33bc2376-8c36-44ad-baa2-53bc6c1a2e4f"/>
+			<Metadata name="Catalog.ДержателиОпционов.Attribute.Почта" id="51955299-661c-4c69-97e3-bf7a1ff89108"/>
+			<Metadata name="Catalog.ДержателиОпционов.Attribute.ФИО" id="8d250dd6-2b3f-4f3e-b573-dd3d8dd4efa8"/>
+			<Metadata name="Catalog.ДержателиОпционов.Attribute.ПаспортыеДанные" id="ebb71617-26e7-4a0a-857b-83a178e1a165"/>
+			<Metadata name="Catalog.ДержателиОпционов.Attribute.Статус" id="fa4ec1ea-e602-46af-81ec-9f028e842ecd"/>
+		</Metadata>
+		<Metadata name="Catalog.ДержателиОпционов.Form.ФормаВыбора" id="6e31ad41-2586-4c51-9749-266b77cb39eb" configVersion="6ba7d8644045c2459ff56efd3058c91b00000000"/>
+		<Metadata name="Catalog.ДержателиОпционов.Form.ФормаВыбора.Form" id="6e31ad41-2586-4c51-9749-266b77cb39eb.0" configVersion="304dc255a556684fa69c06d72a7fab1d00000000"/>
+		<Metadata name="Catalog.ДержателиОпционов.Form.ФормаСписка" id="adbc7f2f-2069-41ac-9479-bbd8cbd073ba" configVersion="fc35bad121d559489376963bf4ca2e9500000000"/>
+		<Metadata name="Catalog.ДержателиОпционов.Form.ФормаСписка.Form" id="adbc7f2f-2069-41ac-9479-bbd8cbd073ba.0" configVersion="2302bfa273053e42ac43d6537ed33b1500000000"/>
+		<Metadata name="Catalog.ДержателиОпционов.Form.ФормаЭлемента" id="f87f0aa2-2e01-4b7b-b29a-a7d06978f8ba" configVersion="44858502c75c1f4985625bca09496e4900000000"/>
+		<Metadata name="Catalog.ДержателиОпционов.Form.ФормаЭлемента.Form" id="f87f0aa2-2e01-4b7b-b29a-a7d06978f8ba.0" configVersion="110cf9a27ecd7d48852fccc958005d4e00000000"/>
+		<Metadata name="Catalog.ДержателиОпционов.ObjectModule" id="8fbc52c4-1887-4e65-9399-321566773c4e.0" configVersion="5557550176f6a645aa55da57c1c1f6be00000000"/>
+		<Metadata name="Catalog.КадрыКомпании" id="3039e792-5553-4349-a3f8-0d743cedd80c" configVersion="8b74636c535d1d469d10327f305744e100000000">
+			<Metadata name="Catalog.КадрыКомпании.Attribute.Должность" id="2d9351e5-7f74-4cbd-8500-b8b22d6a5110"/>
+		</Metadata>
+		<Metadata name="Catalog.КадрыКомпании.Form.ФормаСписка" id="00ae2bf1-208e-40bd-ad47-d5848a13dca2" configVersion="48d3eacd232466449e53d788391a477100000000"/>
+		<Metadata name="Catalog.КадрыКомпании.Form.ФормаСписка.Form" id="00ae2bf1-208e-40bd-ad47-d5848a13dca2.0" configVersion="9a82efc8881568489aa96e257a13fbd600000000"/>
+		<Metadata name="Catalog.КадрыКомпании.Form.ФормаЭлемента" id="08a9e5a0-3062-468e-8617-10f25419a246" configVersion="5a3ccbe95970e14ebe90567216fa5f5d00000000"/>
+		<Metadata name="Catalog.КадрыКомпании.Form.ФормаЭлемента.Form" id="08a9e5a0-3062-468e-8617-10f25419a246.0" configVersion="d2be2d0178ced94296798a681ad9525f00000000"/>
+		<Metadata name="Catalog.ПакетыОпционов" id="8340429a-9a18-4411-a8c8-e310be040cb6" configVersion="9059af4c0db4e04d95e76ba4820a5dcb00000000">
+			<Metadata name="Catalog.ПакетыОпционов.Attribute.ПроданныеОпционы" id="3085f970-e8e5-4e1d-b557-6dbebaee6c8d"/>
+			<Metadata name="Catalog.ПакетыОпционов.Attribute.СрокВестинга" id="39c77c36-6571-41dc-82a0-b1290b27a3f5"/>
+			<Metadata name="Catalog.ПакетыОпционов.Attribute.ДатаДосрочногоЗакрытия" id="4ec5b5d3-6c8e-4aeb-a6f3-19d2df87c3c5"/>
+			<Metadata name="Catalog.ПакетыОпционов.Attribute.КоличествоОпционов" id="68767fb6-78b5-402a-9836-51ba3997bba7"/>
+			<Metadata name="Catalog.ПакетыОпционов.Attribute.Держатель" id="797ba969-251b-4158-875b-db4be7a206d5"/>
+			<Metadata name="Catalog.ПакетыОпционов.Attribute.ОстатокОпционов" id="880b2e78-122a-4928-b1a8-761e08eeb9bd"/>
+			<Metadata name="Catalog.ПакетыОпционов.Attribute.ДатаНачалаВестинга" id="d76180ab-0e79-487d-89ee-2ca40d98a424"/>
+			<Metadata name="Catalog.ПакетыОпционов.Attribute.Статус" id="d945b57c-9fde-443c-81d3-82f5d6bab0e6"/>
+			<Metadata name="Catalog.ПакетыОпционов.Attribute.ВызревшиеОпционы" id="ebf239a6-5a29-4944-9050-c121f54ded8f"/>
+		</Metadata>
+		<Metadata name="Catalog.ПакетыОпционов.Form.ФормаВыбора" id="7aa2c39a-dc1c-4819-b36c-5cd990964089" configVersion="499e3ae977f26b49940a38d15f31484e00000000"/>
+		<Metadata name="Catalog.ПакетыОпционов.Form.ФормаВыбора.Form" id="7aa2c39a-dc1c-4819-b36c-5cd990964089.0" configVersion="a0fba7ae68ef0e4488602c022244f2d400000000"/>
+		<Metadata name="Catalog.ПакетыОпционов.Form.ФормаСписка" id="04ad98eb-02b0-41fd-8c24-843256abde3c" configVersion="f036a9884e1af64c9f38c351e166fe2300000000"/>
+		<Metadata name="Catalog.ПакетыОпционов.Form.ФормаСписка.Form" id="04ad98eb-02b0-41fd-8c24-843256abde3c.0" configVersion="9721f3cad3be0f4ba015d17a4f90f8c000000000"/>
+		<Metadata name="Catalog.ПакетыОпционов.Form.ФормаЭлемента" id="ae09d373-2bdd-424b-bb3d-48bc38ed0ca2" configVersion="e4a21729c73f314899133eeb2c29819900000000"/>
+		<Metadata name="Catalog.ПакетыОпционов.Form.ФормаЭлемента.Form" id="ae09d373-2bdd-424b-bb3d-48bc38ed0ca2.0" configVersion="67fa21fb1e31b347867f789846b54ea900000000"/>
+		<Metadata name="Catalog.ПакетыОпционов.ObjectModule" id="8340429a-9a18-4411-a8c8-e310be040cb6.0" configVersion="2be929a791d6db40b7dd2b218de9936900000000"/>
+		<Metadata name="CommonModule.МодульВестинга" id="44f93471-ade5-418d-8dab-13e04f5ac9bd" configVersion="4a8e8994ecdf894f8993d10472c709e900000000"/>
+		<Metadata name="CommonModule.МодульВестинга.Module" id="44f93471-ade5-418d-8dab-13e04f5ac9bd.0" configVersion="bc4d16a4f683ab4d8bc8145f191afd4600000000"/>
+		<Metadata name="CommonModule.МодульПочты" id="17c06471-f2b4-4efd-93fe-6b7d6bcc34b0" configVersion="8ea812fa3edee04db48d8ec317e57c6800000000"/>
+		<Metadata name="CommonModule.МодульПочты.Module" id="17c06471-f2b4-4efd-93fe-6b7d6bcc34b0.0" configVersion="64573441a899b646ab341a2baf6abb4200000000"/>
+		<Metadata name="CommonPicture.КартинкаВариант" id="5ea9d0bc-28ad-4917-aea2-713427783fe1" configVersion="b44c4e6e9ec09c43b51715ba48e25d4500000000"/>
+		<Metadata name="CommonPicture.КартинкаВариант.Picture" id="5ea9d0bc-28ad-4917-aea2-713427783fe1.0" configVersion="cb03f542f398c440b89ba33db997b5b700000000"/>
+		<Metadata name="CommonPicture.КартинкаНастройки" id="3f61c038-a80c-416a-abf7-045550630570" configVersion="7d5a151171568d4494a1d2789a9eb39f00000000"/>
+		<Metadata name="CommonPicture.КартинкаНастройки.Picture" id="3f61c038-a80c-416a-abf7-045550630570.0" configVersion="11712d4aa4c0d0408d5743808952cea500000000"/>
+		<Metadata name="CommonPicture.КартинкаОдобритьПродажу" id="6fc4cda3-8072-4812-bffa-d3d6e3ad768a" configVersion="226710e282fc914dbaaa976ddc841a5a00000000"/>
+		<Metadata name="CommonPicture.КартинкаОдобритьПродажу.Picture" id="6fc4cda3-8072-4812-bffa-d3d6e3ad768a.0" configVersion="9389f12395cbcf4786dec080cce0b28300000000"/>
+		<Metadata name="CommonPicture.КартинкаОпционы" id="afade473-a121-4cdb-b988-0efd264dec47" configVersion="4311bc06067c354c9b34d007e77d908d00000000"/>
+		<Metadata name="CommonPicture.КартинкаОпционы.Picture" id="afade473-a121-4cdb-b988-0efd264dec47.0" configVersion="87df45b1ae611b4395c4c8b7c1cea50a00000000"/>
+		<Metadata name="CommonPicture.КартинкаОтклонитьПродажу" id="8f18248d-6319-44d0-97c7-bccbeccd3d2a" configVersion="addcd4424a708f4ea1ed822936b3b2fc00000000"/>
+		<Metadata name="CommonPicture.КартинкаОтклонитьПродажу.Picture" id="8f18248d-6319-44d0-97c7-bccbeccd3d2a.0" configVersion="15e080732926934ea55a721465cb623300000000"/>
+		<Metadata name="CommonPicture.КартинкаОтправить" id="cc315373-c002-4bfd-9d89-2821ae78a889" configVersion="ea84a2434d4a4642be7abd10a8e6c21f00000000"/>
+		<Metadata name="CommonPicture.КартинкаОтправить.Picture" id="cc315373-c002-4bfd-9d89-2821ae78a889.0" configVersion="6cf6324fcf88a1498356c89a252a8a9f00000000"/>
+		<Metadata name="CommonPicture.КартинкаОтчеты" id="3b9f2127-c90c-46cb-a31f-f4243d41805b" configVersion="77baec34c0a3014d9853d96ae07ffeb500000000"/>
+		<Metadata name="CommonPicture.КартинкаОтчеты.Picture" id="3b9f2127-c90c-46cb-a31f-f4243d41805b.0" configVersion="1c87de11be2a374b8cb4a55cd7fa1cd400000000"/>
+		<Metadata name="CommonPicture.КартинкаПечать" id="1073188e-5cdf-43a1-8a00-80a9e952b676" configVersion="7b1bf03524fbaf449a98e66ae1fd6c9500000000"/>
+		<Metadata name="CommonPicture.КартинкаПечать.Picture" id="1073188e-5cdf-43a1-8a00-80a9e952b676.0" configVersion="32b621348dc42b4fa2519873a9dfab0c00000000"/>
+		<Metadata name="CommonPicture.КартинкаПользователь" id="ff9e29c8-8932-4a24-8eab-ea678fe82b00" configVersion="c72aaeecb7a6fc408ca065aa9c407d9f00000000"/>
+		<Metadata name="CommonPicture.КартинкаПользователь.Picture" id="ff9e29c8-8932-4a24-8eab-ea678fe82b00.0" configVersion="eecdc6b798c96942ac6eafc49fc268b000000000"/>
+		<Metadata name="CommonPicture.КартинкаПровестиЗакрытие" id="832a8f7a-370d-49eb-83ba-2fc506eacfae" configVersion="c487a9d82cd01f47ac3bd234b848f27600000000"/>
+		<Metadata name="CommonPicture.КартинкаПровестиЗакрытие.Picture" id="832a8f7a-370d-49eb-83ba-2fc506eacfae.0" configVersion="e5e17319e65f6243a4aaa21d6c2f20c700000000"/>
+		<Metadata name="CommonPicture.КартинкаСохранить" id="232c345c-c8bd-4f45-a72f-de0806e76750" configVersion="ab9a420f1398ee4ab5432e80a058b83400000000"/>
+		<Metadata name="CommonPicture.КартинкаСохранить.Picture" id="232c345c-c8bd-4f45-a72f-de0806e76750.0" configVersion="252b5107a1af5b4c9d866dedc5cce16b00000000"/>
+		<Metadata name="CommonPicture.КартинкаСохранитьФайл" id="5c0f8485-8bd4-4938-a7a4-d760406c8302" configVersion="c8451ef9590ab44daeaf9f63386db8e500000000"/>
+		<Metadata name="CommonPicture.КартинкаСохранитьФайл.Picture" id="5c0f8485-8bd4-4938-a7a4-d760406c8302.0" configVersion="6c0525d27cb26a448def9d36b22d754500000000"/>
+		<Metadata name="CommonPicture.КартинкаСправочникЧерн" id="7ef5ee44-bd4b-43b8-8810-fac5dfb65c52" configVersion="208a75e05eeaa945b4e82b87af4de89f00000000"/>
+		<Metadata name="CommonPicture.КартинкаСправочникЧерн.Picture" id="7ef5ee44-bd4b-43b8-8810-fac5dfb65c52.0" configVersion="6c6161d47b830448b60d28a0bfa389ca00000000"/>
+		<Metadata name="CommonPicture.КартинкаСформироватьОтчет" id="44d3a839-300e-4546-8dc8-45a0f1b281c0" configVersion="8c79d9bc12ef2747b1dcee74dd37e0bd00000000"/>
+		<Metadata name="CommonPicture.КартинкаСформироватьОтчет.Picture" id="44d3a839-300e-4546-8dc8-45a0f1b281c0.0" configVersion="cdcf368af5c63841aac30ef2d360cb8e00000000"/>
+		<Metadata name="Configuration.ESOP" id="e687a19f-0ead-486f-b254-a058335dd289" configVersion="4f3b5a6dfe8c1240946789c73f96584200000000"/>
+		<Metadata name="Configuration.ESOP.HomePageWorkArea" id="0e4c0df9-8b26-4364-9ece-0642a2b3f702.8" configVersion="d775c5b0aa420e4fb1defd8aff79999900000000"/>
+		<Metadata name="Configuration.ESOP.MainSectionCommandInterface" id="0e4c0df9-8b26-4364-9ece-0642a2b3f702.9" configVersion="6e2ccd5612d1c64abdd7a6e02b15a43d00000000"/>
+		<Metadata name="Configuration.ESOP.ManagedApplicationModule" id="0e4c0df9-8b26-4364-9ece-0642a2b3f702.6" configVersion="ce0796daba69bc4fac4a442d56fd08d000000000"/>
+		<Metadata name="Configuration.ESOP.SessionModule" id="0e4c0df9-8b26-4364-9ece-0642a2b3f702.7" configVersion="c4bf3df7736f9543b0a742293ef4038100000000"/>
+		<Metadata name="DataProcessor.РасчетВестинга" id="ab4c697b-ccc7-4c9f-bf9f-5d48246017ca" configVersion="4d722145e987444583ac69ba5ce6b02e00000000">
+			<Metadata name="DataProcessor.РасчетВестинга.TabularSection.РасчетОпционов.Attribute.Дата" id="0e91b7ca-3dd6-4590-9763-fec104acab87"/>
+			<Metadata name="DataProcessor.РасчетВестинга.TabularSection.РасчетОпционов.Attribute.СуммаОпционов" id="2dbea498-5dc7-44ce-883c-b97702bf148d"/>
+			<Metadata name="DataProcessor.РасчетВестинга.Attribute.ПакетОпционов" id="59184041-5429-4723-a54e-2f99bfa6d934"/>
+			<Metadata name="DataProcessor.РасчетВестинга.TabularSection.РасчетОпционов.Attribute.Количество" id="70901a6e-6962-44ba-a8ef-ce4e785b5b6d"/>
+			<Metadata name="DataProcessor.РасчетВестинга.TabularSection.РасчетОпционов" id="b2116147-fc15-4955-a1cf-eec2e4d460d4"/>
+			<Metadata name="DataProcessor.РасчетВестинга.Attribute.Дата" id="d863a513-c940-4969-aa25-153c69f3cfa3"/>
+		</Metadata>
+		<Metadata name="DataProcessor.РасчетВестинга.Form.Форма" id="01f84f98-e354-457c-93d4-9a86c30c0a35" configVersion="1b849c559639394e9c590407b085696100000000"/>
+		<Metadata name="DataProcessor.РасчетВестинга.Form.Форма.Form" id="01f84f98-e354-457c-93d4-9a86c30c0a35.0" configVersion="b1427c1a7016474fb7b07ef839e618f800000000"/>
+		<Metadata name="Document.ДосрочноеЗакрытиеПакета" id="6f7c6774-3b27-4882-8962-bddbafe8d4c4" configVersion="cff42ba560541d4bb8a1d4feeb313ab100000000">
+			<Metadata name="Document.ДосрочноеЗакрытиеПакета.Attribute.ПакетОпционов" id="85521724-dc2b-4ea6-9070-8a4f1709ccc6"/>
+			<Metadata name="Document.ДосрочноеЗакрытиеПакета.Attribute.Причина" id="e0f53819-5f2f-430b-80ff-b453add050fe"/>
+			<Metadata name="Document.ДосрочноеЗакрытиеПакета.Attribute.ДержательПакета" id="fc4b71f4-82aa-4828-9a09-56e519e8a82f"/>
+			<Metadata name="Document.ДосрочноеЗакрытиеПакета.Attribute.Отвественный" id="fdab2742-66a9-4803-8c54-9f195b2db069"/>
+		</Metadata>
+		<Metadata name="Document.ДосрочноеЗакрытиеПакета.Form.ФормаДокумента" id="279c5da5-e817-4a82-b90e-14c261302c33" configVersion="a06a706a1caabe488e0fdd7dda1b9f2200000000"/>
+		<Metadata name="Document.ДосрочноеЗакрытиеПакета.Form.ФормаДокумента.Form" id="279c5da5-e817-4a82-b90e-14c261302c33.0" configVersion="b276e5e04acbbf449daab8c3f90b571900000000"/>
+		<Metadata name="Document.ДосрочноеЗакрытиеПакета.Form.ФормаДокумента.Help" id="279c5da5-e817-4a82-b90e-14c261302c33.1" configVersion="f930891bcd743a439b531d329edb941000000000"/>
+		<Metadata name="Document.ДосрочноеЗакрытиеПакета.Help" id="6f7c6774-3b27-4882-8962-bddbafe8d4c4.1" configVersion="5bc377c2c4490746ac89cbdbf3c906cd00000000"/>
+		<Metadata name="Document.ДосрочноеЗакрытиеПакета.ManagerModule" id="6f7c6774-3b27-4882-8962-bddbafe8d4c4.2" configVersion="db9e33bd5b431a4f91e37cb614498ea900000000"/>
+		<Metadata name="Document.ДосрочноеЗакрытиеПакета.ObjectModule" id="6f7c6774-3b27-4882-8962-bddbafe8d4c4.0" configVersion="6f98ca3e5a933a4f80d6fbe21bf6b2a300000000"/>
+		<Metadata name="Document.ЗаявкаНаПродажуОпционов" id="71cc0d1b-56b7-4be8-a319-b502dab07cd9" configVersion="ddc056fb04944b4f9ae37b01f7f67cb400000000">
+			<Metadata name="Document.ЗаявкаНаПродажуОпционов.Attribute.КоличествоОпционовДляПродажи" id="0268ddbb-37d6-4c87-817e-2f65ae8a3bd2"/>
+			<Metadata name="Document.ЗаявкаНаПродажуОпционов.Attribute.ПакетОпционов" id="3b43b3f1-d69c-40f7-8b76-f7d64c522a3e"/>
+			<Metadata name="Document.ЗаявкаНаПродажуОпционов.Attribute.Статус" id="69063ad9-e16c-491f-a2db-39fa2b78417d"/>
+			<Metadata name="Document.ЗаявкаНаПродажуОпционов.Attribute.ДоступныеОпционы" id="84ad6e1f-1b69-4a36-9409-bebeea5aadc4"/>
+			<Metadata name="Document.ЗаявкаНаПродажуОпционов.Attribute.Примечание" id="caaab38b-d3c5-4d5e-bed4-ce6d72be0b01"/>
+		</Metadata>
+		<Metadata name="Document.ЗаявкаНаПродажуОпционов.Form.ФормаДокумента" id="1a605964-8a11-4e75-946b-124261163b21" configVersion="ffcee00ff1e09f44b73c62eae504744e00000000"/>
+		<Metadata name="Document.ЗаявкаНаПродажуОпционов.Form.ФормаДокумента.Form" id="1a605964-8a11-4e75-946b-124261163b21.0" configVersion="5a91fed1d75d0e42bb0cfb7ac19757ba00000000"/>
+		<Metadata name="Document.ЗаявкаНаПродажуОпционов.Form.ФормаСписка" id="1fa24b78-13b8-4c08-b345-65ff1db6d37e" configVersion="df93f12deab3a24199103e708fb6226f00000000"/>
+		<Metadata name="Document.ЗаявкаНаПродажуОпционов.Form.ФормаСписка.Form" id="1fa24b78-13b8-4c08-b345-65ff1db6d37e.0" configVersion="2793f2d08969ba4fb4817ccca0c5c89500000000"/>
+		<Metadata name="Document.ЗаявкаНаПродажуОпционов.ObjectModule" id="71cc0d1b-56b7-4be8-a319-b502dab07cd9.0" configVersion="3eba6aed0ea07e44b0dc8f9b7f010fc900000000"/>
+		<Metadata name="Document.РеализацияОпционов" id="b4eb4b50-6ddf-48de-bbd2-e3ac367d8057" configVersion="17411255689b434c98068c142dd92f1100000000">
+			<Metadata name="Document.РеализацияОпционов.Attribute.ДоступныеОпционы" id="1ac08091-e829-4552-a12a-4cb1effef952"/>
+			<Metadata name="Document.РеализацияОпционов.Attribute.Статус" id="39d8a49a-e4d0-4261-8442-51886fb79520"/>
+			<Metadata name="Document.РеализацияОпционов.Attribute.Отвественный" id="7cf34788-31fd-46c3-bb54-b4194393c1e8"/>
+			<Metadata name="Document.РеализацияОпционов.Attribute.ПричинаОтклонения" id="8f87aa13-94ff-4856-96b0-16094828eb19"/>
+			<Metadata name="Document.РеализацияОпционов.Attribute.Количество" id="be65cdbb-3309-46a8-9aef-ab8795d2ad46"/>
+			<Metadata name="Document.РеализацияОпционов.Attribute.ПакетОпционов" id="ccc1bb30-1c66-4e60-87d1-0e495db8421f"/>
+			<Metadata name="Document.РеализацияОпционов.Attribute.НомерЗаявки" id="d0136baa-cc81-4776-815c-6b5776a9fb62"/>
+		</Metadata>
+		<Metadata name="Document.РеализацияОпционов.Form.ФормаВводаПричины" id="42593d32-bc39-4717-90ea-cf843551d7f1" configVersion="be25dcdb11c82b4a967104fefd0f2ff700000000"/>
+		<Metadata name="Document.РеализацияОпционов.Form.ФормаВводаПричины.Form" id="42593d32-bc39-4717-90ea-cf843551d7f1.0" configVersion="6c0c20bb49e9f049a51a810cf787352200000000"/>
+		<Metadata name="Document.РеализацияОпционов.Form.ФормаДокумента" id="72abe2a3-ceaa-4888-870b-1bfdba0f3063" configVersion="fcbf016921514e418da30a14aa12b48d00000000"/>
+		<Metadata name="Document.РеализацияОпционов.Form.ФормаДокумента.Form" id="72abe2a3-ceaa-4888-870b-1bfdba0f3063.0" configVersion="45abae9fd2f18f4280ad007b723b249d00000000"/>
+		<Metadata name="Document.РеализацияОпционов.Form.ФормаДокумента.Help" id="72abe2a3-ceaa-4888-870b-1bfdba0f3063.1" configVersion="99df5779bb97e84fb6433dca92a49d9c00000000"/>
+		<Metadata name="Document.РеализацияОпционов.Form.ФормаСписка" id="a9157dcc-34b9-42a9-b6ca-026b24d4a1c7" configVersion="e50f0bbb181c1543b9c6c8343cce9cb400000000"/>
+		<Metadata name="Document.РеализацияОпционов.Form.ФормаСписка.Form" id="a9157dcc-34b9-42a9-b6ca-026b24d4a1c7.0" configVersion="f25dc0fd91571e4c83d4e4e837fe4cb300000000"/>
+		<Metadata name="Document.РеализацияОпционов.Help" id="b4eb4b50-6ddf-48de-bbd2-e3ac367d8057.1" configVersion="6d743fa382476444b9bbd88b85ef468100000000"/>
+		<Metadata name="Document.РеализацияОпционов.ManagerModule" id="b4eb4b50-6ddf-48de-bbd2-e3ac367d8057.2" configVersion="41ed599345416f409ff19f39b8bc0d5900000000"/>
+		<Metadata name="Document.РеализацияОпционов.ObjectModule" id="b4eb4b50-6ddf-48de-bbd2-e3ac367d8057.0" configVersion="76f786c18e6e8a47a755eb033472cfdc00000000"/>
+		<Metadata name="Enum.СписокДолжностей" id="d86209f1-3c7d-4b8d-a093-b11279466ece" configVersion="cdd6884375a7584f8bb320f52a1eecd600000000">
+			<Metadata name="Enum.СписокДолжностей.EnumValue.Бухгалтер" id="20c8246a-dbc8-43a5-b331-096b2de9d5f3"/>
+			<Metadata name="Enum.СписокДолжностей.EnumValue.Администратор" id="7e9e30d1-1e53-43f1-990d-073dafa5cf31"/>
+			<Metadata name="Enum.СписокДолжностей.EnumValue.Менеджер" id="f361500c-17e3-40d3-a346-8d5bcce906a5"/>
+		</Metadata>
+		<Metadata name="Enum.СтатусЗаявки" id="245e6fb6-4a0b-43fb-b11a-d862db7e1742" configVersion="b18605653ef4f747887062b0c5bb8c7900000000">
+			<Metadata name="Enum.СтатусЗаявки.EnumValue.ВРаботе" id="21889cae-ecf5-4722-9734-2bcac5abc74c"/>
+			<Metadata name="Enum.СтатусЗаявки.EnumValue.Одобрена" id="b645a035-3c2d-4e26-a987-c68c17f39a47"/>
+			<Metadata name="Enum.СтатусЗаявки.EnumValue.Отклонена" id="dc28b85f-e6bb-4883-ab05-03cae9d02d0e"/>
+		</Metadata>
+		<Metadata name="Enum.СтатусПакетаОпционов" id="ec7c2644-9406-4561-b7a0-41c051ffe046" configVersion="e31c60b83d55dd47ba0706952b57956200000000">
+			<Metadata name="Enum.СтатусПакетаОпционов.EnumValue.Активен" id="2cf4b665-b61a-4ed1-b4d6-032c3aef595f"/>
+			<Metadata name="Enum.СтатусПакетаОпционов.EnumValue.Закрыт" id="93048ae5-5568-4324-8f6d-1123bb2383ea"/>
+		</Metadata>
+		<Metadata name="Enum.СтатусПолучателя" id="32c2453c-2deb-4f3c-9df1-382cb7fb9e59" configVersion="1e6dc482ef2110499e9611dcc1e919d200000000">
+			<Metadata name="Enum.СтатусПолучателя.EnumValue.Активен" id="ede84721-e4be-4986-a680-17f24f78ce5d"/>
+			<Metadata name="Enum.СтатусПолучателя.EnumValue.Заблокирован" id="fdeaae29-4824-428e-845b-67ba07068e2b"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="20303a76-22c1-49a0-ba18-4163c0d1608f" configVersion="2189229eaafea540b9950dd3b47d0fae00000000"/>
+		<Metadata name="Report.ДержателиОпционов" id="6accbbb7-1a01-4fbb-9b04-44fc3e2aad45" configVersion="0c96793f38c9b543a10fd420d511847300000000"/>
+		<Metadata name="Report.ДержателиОпционов.Form.ФормаОтчета" id="8caa6709-cf5f-4f91-bc59-48b8e7e14ff3" configVersion="259ea2748b358a44828e8ff71a220e6d00000000"/>
+		<Metadata name="Report.ДержателиОпционов.Form.ФормаОтчета.Form" id="8caa6709-cf5f-4f91-bc59-48b8e7e14ff3.0" configVersion="fca4137a72b6aa4e87e052129db9857400000000"/>
+		<Metadata name="Report.ДержателиОпционов.Template.ОсновнаяСхемаКомпоновкиДанных" id="3a8a009e-6f88-4519-b44b-898c213efbd5" configVersion="8ffcbf83ce716146b3f58227e6f526e800000000"/>
+		<Metadata name="Report.ДержателиОпционов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="3a8a009e-6f88-4519-b44b-898c213efbd5.0" configVersion="8690932323d7ea449c12e141ccc8108400000000"/>
+		<Metadata name="Report.ПродажаОпционов" id="b1b7c894-c2c0-48c5-b1cb-921a1e8a83ae" configVersion="ede7eaf502578641a7c3d3c3cbb9fc9600000000"/>
+		<Metadata name="Report.ПродажаОпционов.Form.ФормаОтчета" id="12b5b705-ba03-45a6-8f4e-0c62f6ba222d" configVersion="b5ef0db2e07ba144ab348bea17f7a81800000000"/>
+		<Metadata name="Report.ПродажаОпционов.Form.ФормаОтчета.Form" id="12b5b705-ba03-45a6-8f4e-0c62f6ba222d.0" configVersion="143e9d8fba85924c8b42f68a1cd65ffa00000000"/>
+		<Metadata name="Report.ПродажаОпционов.Template.ОсновнаяСхемаКомпоновкиДанных" id="c26a8286-04ba-4007-aa4b-436a272ff6a8" configVersion="db32e75f10818645ab57d510be206bfd00000000"/>
+		<Metadata name="Report.ПродажаОпционов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="c26a8286-04ba-4007-aa4b-436a272ff6a8.0" configVersion="8f9d58f0f7adfa449c3d290a8c9935d800000000"/>
+		<Metadata name="Role.admin" id="c5130cd4-7eaa-454b-99d5-4ae73b3e0c01" configVersion="5cc0dc0aaa841a49b246103872f2520300000000"/>
+		<Metadata name="Role.admin.Rights" id="c5130cd4-7eaa-454b-99d5-4ae73b3e0c01.0" configVersion="1ac85cb672626542ae87736f1e67867700000000"/>
+		<Metadata name="Role.Администратор" id="9f98cb98-bd14-4bca-9de6-eb74355aae04" configVersion="a4f1210a5c9a3743aadf9aec5b41ce5c00000000"/>
+		<Metadata name="Role.Администратор.Rights" id="9f98cb98-bd14-4bca-9de6-eb74355aae04.0" configVersion="5dbcc9fde1eaaf488c25e14660e23bda00000000"/>
+		<Metadata name="Role.Бухгалтер" id="b075a3a6-6b31-4a0b-9d4c-b39b02f194c9" configVersion="32537d70dd716f44b3e46b63860421f000000000"/>
+		<Metadata name="Role.Бухгалтер.Rights" id="b075a3a6-6b31-4a0b-9d4c-b39b02f194c9.0" configVersion="8cf4fc0ec39dec4eb5add121091df13600000000"/>
+		<Metadata name="Role.Менеджер" id="9a01cd57-7324-409d-9536-32bab22f42bc" configVersion="92e6eb785ae9eb43a8c7b0b4d7a9586900000000"/>
+		<Metadata name="Role.Менеджер.Rights" id="9a01cd57-7324-409d-9536-32bab22f42bc.0" configVersion="91e02cd68d029b478da1ec5b3441505500000000"/>
+		<Metadata name="Role.Пользователь" id="8f266ba1-0312-47c6-8c8a-26dbc0eeb1b9" configVersion="b82494a71004ae418300a6c52be12da500000000"/>
+		<Metadata name="Role.Пользователь.Rights" id="8f266ba1-0312-47c6-8c8a-26dbc0eeb1b9.0" configVersion="887dd7add33a964699723e676765f70d00000000"/>
+		<Metadata name="SessionParameter.ТекущийПользователь" id="65db2a09-aa0a-46e2-8176-602a800bb207" configVersion="8388613200c9874e886fe2d4c2b2c37100000000"/>
+		<Metadata name="SessionParameter.ТекущийРаботник" id="d0b735c8-1bbb-4a6d-8c49-9e2f7dd9e2d1" configVersion="24a05253cbe96a4aa2f76f30f357c9fa00000000"/>
+		<Metadata name="Subsystem.Отчеты" id="55b30af4-60bb-4f57-b319-b7adf0e8ca5e" configVersion="fcf98f5151e1954f89278996c2264fa900000000"/>
+		<Metadata name="Subsystem.Отчеты.CommandInterface" id="55b30af4-60bb-4f57-b319-b7adf0e8ca5e.1" configVersion="d4285a579135334c88c577e7bde19b6700000000"/>
+		<Metadata name="Subsystem.РаботаСОпционами" id="7454fb40-a645-4f59-bc2b-45dc21cfa54f" configVersion="babbde222b9dd146ac5b1da74ee72bf800000000"/>
+		<Metadata name="Subsystem.РаботаСОпционамиПользователь" id="5841749e-77f6-4c9e-a399-7159a74e7342" configVersion="cfb3f28fdcf40e438d75716eef38e41200000000"/>
+		<Metadata name="Subsystem.РаботаСОпционамиПользователь.CommandInterface" id="5841749e-77f6-4c9e-a399-7159a74e7342.1" configVersion="2f794002b898ba48bc348671c954625000000000"/>
+		<Metadata name="Subsystem.РаботаСОпционамиПользователь.Help" id="5841749e-77f6-4c9e-a399-7159a74e7342.0" configVersion="572b8de1198ef4419b9221892928268900000000"/>
+		<Metadata name="Subsystem.Справочники" id="fcc7f038-030d-4442-8766-255a63f0dabb" configVersion="fa8f2c215b18a44d93cc5309d67cd01500000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

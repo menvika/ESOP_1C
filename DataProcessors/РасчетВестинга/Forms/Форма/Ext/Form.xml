@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="Декорация1" id="54">
+			<Font ref="style:LargeTextFont" faceName="Tahoma" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перед расчетом вестинга выберите пакет. После выбора пакета система отобразит расчет вестинга до текущей даты.</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="55"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="56"/>
+		</LabelDecoration>
+		<InputField name="Дата" id="59">
+			<DataPath>Объект.Дата</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="60"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="61"/>
+		</InputField>
+		<InputField name="ПакетОпционов" id="1">
+			<DataPath>Объект.ПакетОпционов</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выберите пакет опционов</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПакетОпционовКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПакетОпционовРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Button name="КнопкаРассчитать" id="57">
+			<Type>UsualButton</Type>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.РассчитатьВестингКоманда</CommandName>
+			<BackColor>style:ActivityColor</BackColor>
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="КнопкаРассчитатьРасширеннаяПодсказка" id="58"/>
+		</Button>
+		<Table name="РасчетОпционов" id="29">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.РасчетОпционов</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="РасчетОпционовКонтекстноеМеню" id="30"/>
+			<AutoCommandBar name="РасчетОпционовКоманднаяПанель" id="31">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="РасчетОпционовРасширеннаяПодсказка" id="32"/>
+			<SearchStringAddition name="РасчетОпционовСтрокаПоиска" id="33">
+				<AdditionSource>
+					<Item>РасчетОпционов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РасчетОпционовСтрокаПоискаКонтекстноеМеню" id="34"/>
+				<ExtendedTooltip name="РасчетОпционовСтрокаПоискаРасширеннаяПодсказка" id="35"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РасчетОпционовСостояниеПросмотра" id="36">
+				<AdditionSource>
+					<Item>РасчетОпционов</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РасчетОпционовСостояниеПросмотраКонтекстноеМеню" id="37"/>
+				<ExtendedTooltip name="РасчетОпционовСостояниеПросмотраРасширеннаяПодсказка" id="38"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РасчетОпционовУправлениеПоиском" id="39">
+				<AdditionSource>
+					<Item>РасчетОпционов</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РасчетОпционовУправлениеПоискомКонтекстноеМеню" id="40"/>
+				<ExtendedTooltip name="РасчетОпционовУправлениеПоискомРасширеннаяПодсказка" id="41"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="РасчетОпционовНомерСтроки" id="42">
+					<DataPath>Объект.РасчетОпционов.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РасчетОпционовНомерСтрокиКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="РасчетОпционовНомерСтрокиРасширеннаяПодсказка" id="44"/>
+				</LabelField>
+				<InputField name="РасчетОпционовДата" id="45">
+					<DataPath>Объект.РасчетОпционов.Дата</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="РасчетОпционовДатаКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="РасчетОпционовДатаРасширеннаяПодсказка" id="47"/>
+				</InputField>
+				<InputField name="РасчетОпционовКоличество" id="48">
+					<DataPath>Объект.РасчетОпционов.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="РасчетОпционовКоличествоКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="РасчетОпционовКоличествоРасширеннаяПодсказка" id="50"/>
+				</InputField>
+				<InputField name="РасчетОпционовСуммаОпционов" id="51">
+					<DataPath>Объект.РасчетОпционов.СуммаОпционов</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="РасчетОпционовСуммаОпционовКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="РасчетОпционовСуммаОпционовРасширеннаяПодсказка" id="53"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РасчетВестинга</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="РассчитатьВестингКоманда" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать вестинг команда</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать вестинг команда</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РассчитатьВестингКоманда</Action>
+		</Command>
+	</Commands>
+</Form>

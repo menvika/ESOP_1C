@@ -1,0 +1,10 @@
+# Игнорируем служебные файлы и папки Конфигуратора
+Configuration.xml
+ConfigurationDumpInfo.xml
+log.txt
+*.cfe
+*.cf
+*.cfu
+*.epf
+*.erf
+*.ert
